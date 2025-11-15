@@ -192,7 +192,7 @@ export const tools: Tool[] = [
 ]
 
 export const categories = [
-  "All",
+  "Home",
   "Trading Bots",
   "Analytics Tools",
   "Portfolio Tracking",

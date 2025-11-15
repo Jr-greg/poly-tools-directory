@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0118;
+  --background: #0F041F;
   --foreground: hsl(280, 20%, 98%);
   --card: #1a0f2e;
   --card-foreground: hsl(280, 20%, 98%);
@@ -15,6 +15,10 @@
   --accent: hsl(280, 40%, 18%);
   --border: hsl(280, 35%, 20%);
   --border-subtle: hsl(280, 30%, 18%);
+}
+
+html {
+  background-color: #0F041F;
 }
 
 * {
@@ -61,7 +65,7 @@ body::before {
 /* Tool Card Hover Effects */
 .tool-card {
   border-color: hsl(280, 30%, 18%);
-  background: #0a0118;
+  background: #0F041F;
   transition: all 0.3s ease;
 }
 
